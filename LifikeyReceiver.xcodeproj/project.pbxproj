@@ -15,7 +15,6 @@
 		E8ACFDB61CF74EA9009246EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8ACFDB41CF74EA9009246EB /* LaunchScreen.storyboard */; };
 		E8ACFDC11CF74EA9009246EB /* LifikeyReceiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACFDC01CF74EA9009246EB /* LifikeyReceiverTests.swift */; };
 		E8ACFDCC1CF74EA9009246EB /* LifikeyReceiverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACFDCB1CF74EA9009246EB /* LifikeyReceiverUITests.swift */; };
-		E8ACFDDC1CF75BF8009246EB /* DiscoveredBarCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8ACFDDB1CF75BF8009246EB /* DiscoveredBarCodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		E8ACFDC71CF74EA9009246EB /* LifikeyReceiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifikeyReceiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8ACFDCB1CF74EA9009246EB /* LifikeyReceiverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifikeyReceiverUITests.swift; sourceTree = "<group>"; };
 		E8ACFDCD1CF74EA9009246EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8ACFDDB1CF75BF8009246EB /* DiscoveredBarCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiscoveredBarCodeView.swift; path = ../DiscoveredBarCodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				E89360101CFF3F2100433030 /* CameraPreviewView.swift */,
-				E8ACFDDB1CF75BF8009246EB /* DiscoveredBarCodeView.swift */,
 				E8ACFDAB1CF74EA9009246EB /* AppDelegate.swift */,
 				E8ACFDAD1CF74EA9009246EB /* ViewController.swift */,
 				E8ACFDAF1CF74EA9009246EB /* Main.storyboard */,
@@ -266,7 +263,6 @@
 				E89360111CFF3F2100433030 /* CameraPreviewView.swift in Sources */,
 				E8ACFDAE1CF74EA9009246EB /* ViewController.swift in Sources */,
 				E8ACFDAC1CF74EA9009246EB /* AppDelegate.swift in Sources */,
-				E8ACFDDC1CF75BF8009246EB /* DiscoveredBarCodeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,13 +17,12 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     
     var captureSession : AVCaptureSession!
     var previewLayer : AVCaptureVideoPreviewLayer?
-    var camera:AVCaptureDevice!
+    weak var camera:AVCaptureDevice!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -112,13 +111,12 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     
     
     // MARK: AVCaptureVideoSampleBufferOutputDelegate
-    
     func captureOutput(captureOutput: AVCaptureOutput!, didDropSampleBuffer sampleBuffer: CMSampleBuffer!, fromConnection connection: AVCaptureConnection!) {
         print("drop buffers")
     }
     
     func captureOutput(captureOutput: AVCaptureOutput!, didOutputSampleBuffer sampleBuffer: CMSampleBuffer!, fromConnection connection: AVCaptureConnection!) {
-        print("output")
+//        print("output")
     }
     
 }
